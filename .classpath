@@ -6,6 +6,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Downloads/jsoup-1.14.3.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.14.3.jar" sourcepath="lib/jsoup-1.14.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/jsooooop/lib/jsoup-1.14.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
